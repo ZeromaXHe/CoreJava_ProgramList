@@ -14,7 +14,7 @@ public class BorderFrame extends JFrame{
     public static void main(String[] args) {
         EventQueue.invokeLater(()->{
             JFrame frame = new BorderFrame();
-            frame.setTitle("CheckBoxFrameTest");
+            frame.setTitle("BorderFrameTest");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });
